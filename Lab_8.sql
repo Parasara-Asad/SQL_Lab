@@ -166,7 +166,7 @@ SELECT DIFFERENCE(MAX(SALARY),MIN(SALARY)) AS DIFFERENCE_MAX_MIN
 FROM EMPLOYEE;
 
 --Display sum of salaries of department wise where department name consist 5 letter
-
+ss
 SELECT DEPARTMENT,SUM(SALARY)  AS CONSIST_5_LETTER
 FROM EMPLOYEE
 WHERE DEPARTMENT LIKE '_____'
