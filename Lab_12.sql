@@ -221,3 +221,28 @@ INSERT INTO TEAM VALUES
 (8,'Sunrisers Hyderabad','Brian Lara',9,14,108);
 
 
+
+--Insert Data into PLAYER Table
+INSERT INTO PLAYER
+(PLAYER_ID, PLAYER_FIRST_NAME, PLAYER_LAST_NAME, TEAM_ID, PLAYER_ROLE, PLAYER_JERSEY_NUMBER, PLAYER_MATCHES_PLAYED)
+VALUES
+(201, 'Virat', 'Kohli', 3, 'Batsman', 18, 25),
+(202, 'Rohit', 'Sharma', 1, 'Batsman', 45, 28),
+(203, 'Jasprit', 'Bumrah', 1, 'Bowler', 93, 26),
+(204, 'MS', 'Dhoni', 2, 'Wicketkeeper', 7, 30),
+(205, 'Ravindra', 'Jadeja', 2, 'All-rounder', 8, 27),
+(206, 'Andre', 'Russell', 4, 'All-rounder', 12, 24),
+(207, 'Sanju', 'Samson', 5, 'Batsman', 11, 23),
+(208, 'Yuzvendra', 'Chahal', 5, 'Bowler', 3, 22),
+(209, 'Glenn', 'Maxwell', 3, 'All-rounder', 32, 21),
+(210, 'Sunil', 'Narine', 4, 'Bowler', 74, 29),
+(211, 'David', 'Warner', 6, 'Batsman', 31, 26),
+(212, 'Rishabh', 'Pant', 6, 'Wicketkeeper', 17, 24),
+(213, 'Kagiso', 'Rabada', 6, 'Bowler', 25, 23),
+(214, 'Shikhar', 'Dhawan', 7, 'Batsman', 42, 27),
+(215, 'Liam', 'Livingstone', 7, 'All-rounder', 23, 22),
+(216, 'Arshdeep', 'Singh', 7, 'Bowler', 2, 21),
+(217, 'Aiden', 'Markram', 8, 'Batsman', 4, 23),
+(218, 'Bhuvneshwar', 'Kumar', 8, 'Bowler', 15, 28),
+(219, 'Rahul', 'Tripathi', 8, 'Batsman', 52, 24),
+(220, 'Abdul', 'Samad', 8, 'All-rounder', 11, 29);
